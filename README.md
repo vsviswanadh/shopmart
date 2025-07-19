@@ -72,15 +72,6 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) project built as part of
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots here to show your homepage, cart, admin panel, and product details pages.
-> Example:
-> ![Homepage](screenshots/homepage.png)  
-> ![Admin Panel](screenshots/admin-panel.png)
-
----
-
 ## 👨‍💻 Team - LTVIP2025TMID55453
 
 | Name                     | Role        |
