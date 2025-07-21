@@ -19,6 +19,6 @@
     "mongodb": "^5.3.0",
     "mongoose": "^7.0.4",
     "nodemailer": "^6.9.2",
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.1.10"
   }
 }

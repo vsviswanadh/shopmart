@@ -1,12 +1,16 @@
-const mongoose = require("mongoose");
-const db= 'mongodb://127.0.0.1:27017/grocery'
-// Connect to MongoDB using the connection string
+const mongoose = require('mongoose');
 
-mongoose.connect(db, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-}).then(() => {
-  console.log(`Connection successful`);
-}).catch((e) => {   
-  console.log(`No connection: ${e}`);   
-});
+const connectDB = async () => {
+  try {
+    await mongoose.connect('mongodb://127.0.0.1:27017/internship_project', {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log('MongoDB Connected');
+  } catch (error) {
+    console.error('DB Connection Failed:', error.message);
+    process.exit(1);
+  }
+};
+
+module.exports = connectDB;
